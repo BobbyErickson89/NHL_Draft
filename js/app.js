@@ -27,42 +27,12 @@ $(document).ready(function(){
       }
 
       function final_pick(){
-
         var percentage = Math.random();
         var pick = (percentage * 200) / 2;
         console.log(pick);
 
         var percentages = [0, 20, 13.5, 11.5, 9.5, 8.5, 7.5, 6.5, 6, 5, 3.5, 3, 2.5, 2, 1];
 
-        // if (pick <= 20){
-        //   console.log(lottery_teams[0]);
-        // } else if (pick > 20 && pick <= 33.5){
-        //   console.log(lottery_teams[1]);
-        // } else if (pick > 33.5 && pick <= 45){
-        //   console.log(lottery_teams[2]);
-        // } else if (pick > 45 && pick <= 54.5){
-        //   console.log(lottery_teams[3]);
-        // } else if (pick > 54.5 && pick <= 63){
-        //   console.log(lottery_teams[4]);
-        // } else if (pick > 63 && pick <= 70.5){
-        //   console.log(lottery_teams[5]);
-        // } else if (pick > 70.5 && pick <= 77){
-        //   console.log(lottery_teams[6]);
-        // } else if (pick > 77 && pick <= 83){
-        //   console.log(lottery_teams[7]);
-        // } else if (pick > 83 && pick <= 88){
-        //   console.log(lottery_teams[8]);
-        // } else if (pick > 88 && pick <= 91.5){
-        //   console.log(lottery_teams[9]);
-        // } else if (pick > 91.5 && pick <= 94.5){
-        //   console.log(lottery_teams[10]);
-        // } else if (pick > 94.5 && pick <= 97){
-        //   console.log(lottery_teams[11]);
-        // } else if (pick > 97 && pick <= 99){
-        //   console.log(lottery_teams[12]);
-        // } else if (pick > 99 && pick <= 100){
-        //   console.log(lottery_teams[13]);
-        // }
         var draft_odds = 0;
 
         for(var i = 0; i < percentages.length; i++){
