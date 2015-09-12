@@ -1,3 +1,12 @@
 #draft_button {
+  display: block;
   margin-bottom: 3em;
+}
+
+#standings, #draft_winner {
+  display: inline-block;
+}
+
+#draft_winner {
+  vertical-align: top;
 }
