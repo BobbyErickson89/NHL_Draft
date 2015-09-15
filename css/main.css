@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+  margin: 1em 0.5em;
+}
+
 #draft_button {
   display: block;
   margin-bottom: 3em;
@@ -5,6 +10,15 @@
 
 #standings, #draft_winner {
   display: inline-block;
+}
+
+#standings th {
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+#standings td {
+  padding-bottom: 0.5em;
 }
 
 #draft_winner {
