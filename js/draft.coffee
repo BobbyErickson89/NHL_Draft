@@ -67,7 +67,7 @@ final_pick = ->
   draft_odds = 0
   i = 0
 
-  console.log pick
+  console.log 'test'
 
   while i < percentages.length
     draft_odds = draft_odds + percentages[i]
