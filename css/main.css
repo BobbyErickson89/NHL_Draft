@@ -1,12 +1,55 @@
-#draft_button {
-  display: block;
-  margin-bottom: 3em;
+body {
+    font-family: sans-serif;
 }
 
-#standings, #draft_winner {
-  display: inline-block;
+th {
+    font-weight: bold;
+    padding-bottom: 0.5em;
 }
 
-#draft_winner {
-  vertical-align: top;
+#page_heading {
+    background: #037DD2;
+    color: white;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#draft_button, #reset_button {
+    display: block;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#draft_winner, #draft_selection {
+    vertical-align: top;
+}
+
+#container {
+    /*text-align: justify;*/
+    /*border: 1px dashed black;*/
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#standings, #draft_winner, #draft_selection {
+    width: 33%;
+    /*border: 1px dashed black;*/
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#standings {
+    text-align: left;
+}
+
+#draft_selection {
+    float: right;
 }

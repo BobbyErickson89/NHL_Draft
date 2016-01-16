@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - @localhost" uuid="b2e25917-9b96-410c-9df6-4d319000d653">
+    <database-info product="MySQL" version="5.6.24" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="ecats_defects"/>
+      <table id="2" parent="1" name="ddts"/>
+      <table id="3" parent="1" name="ddts_ipngn"/>
+      <table id="4" parent="1" name="defectlists"/>
+      <table id="5" parent="1" name="demgrtodept"/>
+      <table id="6" parent="1" name="depttobu"/>
+      <table id="7" parent="1" name="metrics"/>
+      <table id="8" parent="1" name="metrics_extra"/>
+      <table id="9" parent="1" name="notes"/>
+      <table id="10" parent="1" name="projlist"/>
+      <table id="11" parent="1" name="updates"/>
+      <table id="12" parent="1" name="ww_dept_list"/>
+      <column id="13" parent="2" name="ddtsid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(12)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="14" parent="2" name="ddtsheadline">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="15" parent="2" name="ddtssubmitter">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="16" parent="2" name="ddtsengineer">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="17" parent="2" name="teacatid">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="18" parent="2" name="forwarddupe">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="19" parent="2" name="ddtsage">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="20" parent="2" name="ddtsseverity">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="21" parent="2" name="ddtsstatus">
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="22" parent="2" name="ddtsfound">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="23" parent="2" name="ddtsproduct">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="24" parent="2" name="ddtscomponent">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="25" parent="2" name="ddtsattribute">
+        <data-type>varchar(2000)</data-type>
+      </column>
+      <column id="26" parent="2" name="ddtsproject">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="27" parent="2" name="ddtsplatform">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="28" parent="2" name="ddtsobssoftware">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="29" parent="2" name="ddtsversion">
+        <data-type>varchar(180)</data-type>
+      </column>
+      <column id="30" parent="2" name="ddtsintegrated">
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="31" parent="2" name="ddtsopened">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="32" parent="2" name="ddtsresolved">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="33" parent="2" name="ddtsverified">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="34" parent="2" name="ddtsclosed">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="35" parent="2" name="flag1">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="36" parent="2" name="cfdflag">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="37" parent="2" name="majorversion">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="38" parent="2" name="ddtsss">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="39" parent="2" name="ddtstta">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="40" parent="2" name="ddtsdemgr">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="41" parent="2" name="ddtsregression">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="42" parent="2" name="rcacategory">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="43" parent="2" name="rcaimpact">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="44" parent="2" name="rcaorigin">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="45" parent="2" name="rcareason">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="46" parent="2" name="rcatriggers">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="47" parent="2" name="ddtsdupof">
+        <mandatory>1</mandatory>
+        <data-type>varchar(12)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="48" parent="2" name="ddtsencl">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="49" parent="2" name="trouble_tickets">
+        <data-type>text</data-type>
+      </column>
+      <column id="50" parent="2" name="tickets_count">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="51" parent="2" name="lastdateseen">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="52" parent="2" name="lastupdate">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="53" parent="2" name="PRIMARY">
+        <columns>ddtsid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="54" parent="3" name="ddtsid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(12)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="55" parent="3" name="ddtsheadline">
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="56" parent="3" name="ddtssubmitter">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="57" parent="3" name="ddtsengineer">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="58" parent="3" name="teacatid">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="59" parent="3" name="forwarddupe">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="60" parent="3" name="ddtsage">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="61" parent="3" name="ddtsseverity">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="62" parent="3" name="ddtsstatus">
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="63" parent="3" name="ddtsfound">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="64" parent="3" name="ddtsproduct">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="65" parent="3" name="ddtscomponent">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="66" parent="3" name="ddtsattribute">
+        <data-type>varchar(2000)</data-type>
+      </column>
+      <column id="67" parent="3" name="ddtsproject">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="68" parent="3" name="ddtsplatform">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="69" parent="3" name="ddtsobssoftware">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="70" parent="3" name="ddtsversion">
+        <data-type>varchar(180)</data-type>
+      </column>
+      <column id="71" parent="3" name="ddtsintegrated">
+        <data-type>varchar(80)</data-type>
+      </column>
+      <column id="72" parent="3" name="ddtsopened">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="73" parent="3" name="ddtsresolved">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="74" parent="3" name="ddtsverified">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="75" parent="3" name="ddtsclosed">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="76" parent="3" name="flag1">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="77" parent="3" name="cfdflag">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="78" parent="3" name="majorversion">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="79" parent="3" name="ddtsss">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="80" parent="3" name="ddtstta">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="81" parent="3" name="ddtsdemgr">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="82" parent="3" name="ddtsregression">
+        <data-type>char(1)</data-type>
+      </column>
+      <column id="83" parent="3" name="rcacategory">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="84" parent="3" name="rcaimpact">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="85" parent="3" name="rcaorigin">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="86" parent="3" name="rcareason">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="87" parent="3" name="rcatriggers">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="88" parent="3" name="ddtsdupof">
+        <mandatory>1</mandatory>
+        <data-type>varchar(12)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="89" parent="3" name="ddtsencl">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="90" parent="3" name="trouble_tickets">
+        <data-type>text</data-type>
+      </column>
+      <column id="91" parent="3" name="tickets_count">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="92" parent="3" name="lastdateseen">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="93" parent="3" name="lastupdate">
+        <mandatory>1</mandatory>
+        <data-type>timestamp</data-type>
+        <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      </column>
+      <key id="94" parent="3" name="PRIMARY">
+        <columns>ddtsid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="95" parent="4" name="listid">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="96" parent="4" name="type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="97" parent="4" name="value">
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="98" parent="4" name="error">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <index id="99" parent="4" name="listid">
+        <columns>listid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="100" parent="4" name="listid_2">
+        <columns>listid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="101" parent="4" name="type">
+        <columns>type</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="102" parent="4" name="PRIMARY">
+        <columns>type
+listid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="103" parent="5" name="demgr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="104" parent="5" name="seniormgr">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="105" parent="5" name="department">
+        <mandatory>1</mandatory>
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="106" parent="5" name="dept_no">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="107" parent="5" name="PRIMARY">
+        <columns>demgr</columns>
+        <primary>1</primary>
+      </key>
+      <column id="108" parent="6" name="department">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="109" parent="6" name="bu">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="110" parent="7" name="projid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="111" parent="7" name="metriclist">
+        <mandatory>1</mandatory>
+        <data-type>int(2)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="112" parent="7" name="dlist">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="113" parent="7" name="PRIMARY">
+        <columns>projid
+metriclist</columns>
+        <primary>1</primary>
+      </key>
+      <column id="114" parent="8" name="projid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="115" parent="8" name="type">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="116" parent="8" name="value">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <key id="117" parent="8" name="PRIMARY">
+        <columns>projid
+type</columns>
+        <primary>1</primary>
+      </key>
+      <column id="118" parent="9" name="defectid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="119" parent="9" name="projid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="120" parent="9" name="notetxt">
+        <data-type>varchar(250)</data-type>
+      </column>
+      <index id="121" parent="9" name="defectid">
+        <columns>defectid
+projid</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <column id="122" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="123" parent="10" name="listid">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="124" parent="10" name="shortname">
+        <mandatory>1</mandatory>
+        <data-type>varchar(50)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="125" parent="10" name="longname">
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="126" parent="10" name="owner">
+        <data-type>varchar(250)</data-type>
+      </column>
+      <column id="127" parent="10" name="qddts">
+        <data-type>text</data-type>
+      </column>
+      <column id="128" parent="10" name="qddtsval">
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="129" parent="10" name="del">
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+        <default-expression>&apos;Y&apos;</default-expression>
+      </column>
+      <column id="130" parent="10" name="getdup">
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+        <default-expression>&apos;N&apos;</default-expression>
+      </column>
+      <index id="131" parent="10" name="id">
+        <columns>id
+listid
+shortname</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="132" parent="10" name="PRIMARY">
+        <columns>listid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="133" parent="11" name="projid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="134" parent="11" name="update">
+        <mandatory>1</mandatory>
+        <data-type>char(1)</data-type>
+        <default-expression>&apos;N&apos;</default-expression>
+      </column>
+      <column id="135" parent="11" name="lastdone">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="136" parent="11" name="PRIMARY">
+        <columns>projid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="137" parent="12" name="COUNTRY_CODE">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="138" parent="12" name="COMPANY_NAME">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="139" parent="12" name="LOCATION_CODE">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="140" parent="12" name="DEPT_NO">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="141" parent="12" name="DEPT_NAME">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="142" parent="12" name="ACTIVE">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="143" parent="12" name="PL_ROLLUP">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="144" parent="12" name="PARENT_IN_PL_HIERARCHY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="145" parent="12" name="PARENT_NODE_ID_IN_PL_HIERARCHY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="146" parent="12" name="SR_VP">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="147" parent="12" name="VP">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="148" parent="12" name="MANAGER_FULLNAME">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="149" parent="12" name="MANAGER_EMAILID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="150" parent="12" name="MANAGER_NODE_ID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="151" parent="12" name="GEOGRAPHICAL_COUNTRY__ID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="152" parent="12" name="LEGAL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="153" parent="12" name="THEATER">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="154" parent="12" name="REGION">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="155" parent="12" name="BUDGET_FA_EMAILID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="156" parent="12" name="FINANCIAL_ANALYST">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="157" parent="12" name="ARIBA">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="158" parent="12" name="ESTIMATED_BUDGET_VALUE">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="159" parent="12" name="ESTIMATED_BUDGET_DESC">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="160" parent="12" name="ESTIMATED_HEAD_COUNT_VALUE">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="161" parent="12" name="ESTIMATED_HEAD_COUNT_DESC">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="162" parent="12" name="CURRENCY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="163" parent="12" name="LOB">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="164" parent="12" name="FUNCTIONAL_UNIT">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="165" parent="12" name="BUSINESS_UNIT">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="166" parent="12" name="MARKET_SEGMENT">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="167" parent="12" name="TAX_CATEGORY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="168" parent="12" name="CONTROLLER_EMAIL_ID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="169" parent="12" name="CONTROLLER">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="170" parent="12" name="CFP_MANAGER_NAME">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="171" parent="12" name="UPDATED_BY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="172" parent="12" name="UPDATE_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="173" parent="12" name="CREATION_DATE">
+        <data-type>date</data-type>
+      </column>
+      <column id="174" parent="12" name="CREATED_BY">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="175" parent="12" name="PL_LEVEL_2">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="176" parent="12" name="PL_LEVEL_3">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="177" parent="12" name="PL_LEVEL_4">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="178" parent="12" name="PL_LEVEL_5">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="179" parent="12" name="PL_LEVEL_6">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="180" parent="12" name="PL_LEVEL_7">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="181" parent="12" name="PL_LEVEL_8">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="182" parent="12" name="PL_LEVEL_9">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="183" parent="12" name="PL_LEVEL_10">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="184" parent="12" name="PL_LEVEL_11">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="185" parent="12" name="PL_LEVEL_12">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="186" parent="12" name="MGMT_LEVEL_2">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="187" parent="12" name="MGMT_LEVEL_3">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="188" parent="12" name="MGMT_LEVEL_4">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="189" parent="12" name="MGMT_LEVEL_5">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="190" parent="12" name="MGMT_LEVEL_6">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="191" parent="12" name="MGMT_LEVEL_7">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="192" parent="12" name="MGMT_LEVEL_8">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="193" parent="12" name="USAGE_DESCRIPTION">
+        <data-type>varchar(255)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
