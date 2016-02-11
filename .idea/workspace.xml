@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c22f9d2-1b97-4840-b048-ba36c1d17dac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/team_api.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/team_api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.coffee" afterPath="$PROJECT_DIR$/js/draft.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.js" afterPath="$PROJECT_DIR$/js/draft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.js.map" afterPath="$PROJECT_DIR$/js/draft.js.map" />
     </list>
     <ignored path="NHL_Draft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +71,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.072115384">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.09615385">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -113,7 +106,6 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b2e25917-9b96-410c-9df6-4d319000d653/console.sql" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/draft.coffee" />
@@ -121,6 +113,7 @@
         <option value="$PROJECT_DIR$/js/schedule.coffee" />
         <option value="$PROJECT_DIR$/js/team_api.coffee" />
         <option value="$PROJECT_DIR$/team_api.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -861,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072115384">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.09615385">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
