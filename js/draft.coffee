@@ -117,6 +117,7 @@ $('#draft_button').click ->
   if click_counter >= 3
     $('#draft_button').prop('disabled', true)
 
+
     i = 0
     while i < lottery_teams.length
       $('#draft_selection').append('<tr><td class="team">' + lottery_teams[i] +  '</td></tr>')

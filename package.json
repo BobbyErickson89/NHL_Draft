@@ -1,0 +1,29 @@
+{
+  "name": "NHL_Draft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "backbone": "^1.2.2",
+    "browserify": "^13.0.0",
+    "cheerio": "^0.20.0",
+    "express": "^4.13.4",
+    "moment": "^2.11.2",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BobbyErickson89/NHL_Draft.git"
+  },
+  "keywords": [],
+  "author": "cat package.json",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BobbyErickson89/NHL_Draft/issues"
+  },
+  "homepage": "https://github.com/BobbyErickson89/NHL_Draft"
+}

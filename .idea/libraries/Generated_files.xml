@@ -2,19 +2,32 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/node_modules/browserify/test/coffee_bin/x.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
         <item url="file://$PROJECT_DIR$/js/draft.js" />
-        <item url="file://$PROJECT_DIR$/js/schedule.js" />
         <item url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
         <item url="file://$PROJECT_DIR$/app.js" />
         <item url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/browserify/test/coffee_bin/main.js" />
+        <item url="file://$PROJECT_DIR$/js/schedule.js" />
+        <item url="file://$PROJECT_DIR$/node_modules/browserify/test/coffeeify/main.js" />
+        <item url="file://$PROJECT_DIR$/js/scoreboard.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/js/draft.js" />
       <root url="file://$PROJECT_DIR$/js/team_api.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/browserify/test/coffee_bin/x.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/browserify/node_modules/resolve/test/resolver/mug.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/browserify/node_modules/resolve/test/resolver/cup.js" />
+      <root url="file://$PROJECT_DIR$/js/draft.js" />
       <root url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/src/ipaddr.js" />
       <root url="file://$PROJECT_DIR$/app.js" />
       <root url="file://$PROJECT_DIR$/node_modules/express/node_modules/proxy-addr/node_modules/ipaddr.js/test/ipaddr.test.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/browserify/test/coffee_bin/main.js" />
+      <root url="file://$PROJECT_DIR$/js/schedule.js" />
+      <root url="file://$PROJECT_DIR$/node_modules/browserify/test/coffeeify/main.js" />
+      <root url="file://$PROJECT_DIR$/js/scoreboard.js" />
     </CLASSES>
     <SOURCES />
   </library>

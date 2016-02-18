@@ -15,14 +15,33 @@ th {
     padding-bottom: 1em;
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
+
+    box-shadow: 0 4px 1px -1px gray;
+}
+
+#button_container {
+    text-align: center;
 }
 
 #draft_button, #reset_button {
-    display: block;
+    background: #037DD2;
+    color: white;
     margin-bottom: 3em;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 8em;
+    border: none;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    box-shadow: 1px 3px 1px gray;
+    cursor: pointer;
+    outline: none;
+    /*border-radius: 5px;*/
+}
+
+#draft_button:active, #reset_button:active {
+    background: #3597db;
 }
 
 #draft_winner, #draft_selection {
@@ -39,6 +58,10 @@ th {
 
 }
 
+#draft_winner {
+    text-align: center;
+}
+
 #standings, #draft_winner, #draft_selection {
     width: 33%;
     /*border: 1px dashed black;*/
@@ -50,6 +73,22 @@ th {
     text-align: left;
 }
 
+#team_column, .team {
+    width: 80%;
+}
+
 #draft_selection {
     float: right;
 }
+
+#scoreboard {
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+.game {
+    display: inline-block;
+    width: 5em;
+}
+
+
