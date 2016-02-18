@@ -7,6 +7,8 @@ $.getScript 'http://live.nhle.com/GameData/GCScoreboard/' + todays_date + '.json
 window.loadScoreboard = (data)->
   todays_games = []
 
+  console.log data.games
+
   for game in data.games
     individual_game = {}
     individual_game.home = game.ata
@@ -19,6 +21,6 @@ window.loadScoreboard = (data)->
   for game in todays_games
     console.log game.away
     $('#scoreboard').append('<div class=\"game\"><div class=\"away_team\">' + game.away +
-        '</div><div class=\"time\">' + game.time + '</div><div class=\"home_team\">' + game.home + '</div></div>')
+        '</div><div class=\"home_team\">' + game.home + '</div><div class=\"time\">' + game.time + '</div></div>')
 
   return

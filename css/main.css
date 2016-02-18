@@ -82,13 +82,18 @@ th {
 }
 
 #scoreboard {
-    border: 1px solid black;
     margin-bottom: 2em;
 }
 
 .game {
     display: inline-block;
-    width: 5em;
+    width: 8em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
+.time {
+    font-size: 0.5em;
+    /*text-align: center;*/
+}
 
