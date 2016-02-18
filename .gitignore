@@ -2,5 +2,5 @@
 *.js
 *.js.map
 node_modules
-.idea
+.idea/*
 bower_components
