@@ -63,14 +63,12 @@ standings_table = ->
   return
 
 final_pick = ->
-  console.log lottery_teams
+#  console.log lottery_teams
   percentage = Math.random()
-  console.log adjusted_percentage
+#  console.log adjusted_percentage
   pick = (percentage * (adjusted_percentage * 2)) / 2
   draft_odds = 0
   i = 0
-
-  console.log pick
 
   while i < percentages.length
     draft_odds = draft_odds + percentages[i]
@@ -91,8 +89,8 @@ final_pick = ->
       percentages.splice(-1, 1)
 
       adjusted_percentage = adjusted_percentage - percentages[i + 1]
-      console.log lottery_teams
-      console.log percentages[i + 1]
+#      console.log lottery_teams
+#      console.log percentages[i + 1]
 
       $('#standings').empty()
       standings_table()
@@ -108,7 +106,6 @@ final_pick = ->
 
 
 $('#draft_button').click ->
-  console.log 'testing'
   final_pick()
 
   # incrementing click_counter each time #draft_button is clicked.

@@ -66,13 +66,10 @@
 
   final_pick = function() {
     var draft_odds, i, percentage, pick, team_image_link, team_name_chosen, team_name_split;
-    console.log(lottery_teams);
     percentage = Math.random();
-    console.log(adjusted_percentage);
     pick = (percentage * (adjusted_percentage * 2)) / 2;
     draft_odds = 0;
     i = 0;
-    console.log(pick);
     while (i < percentages.length) {
       draft_odds = draft_odds + percentages[i];
       if (pick > draft_odds && pick <= draft_odds + percentages[i + 1]) {
@@ -85,8 +82,6 @@
         lottery_teams.splice(i, 1);
         percentages.splice(-1, 1);
         adjusted_percentage = adjusted_percentage - percentages[i + 1];
-        console.log(lottery_teams);
-        console.log(percentages[i + 1]);
         $('#standings').empty();
         standings_table();
         $('#team_img').attr('src', team_image_link).load(function() {
@@ -101,7 +96,6 @@
 
   $('#draft_button').click(function() {
     var i;
-    console.log('testing');
     final_pick();
     click_counter++;
     if (click_counter >= 3) {
