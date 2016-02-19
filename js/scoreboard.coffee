@@ -14,10 +14,16 @@ window.loadScoreboard = (data)->
     individual_game.home = game.ata
     individual_game.away = game.hta
     individual_game.time = game.bs
+    individual_game.hts = game.hts
+    individual_game.ats = game.ats
     todays_games.push(individual_game)
+
+  console.log todays_games
 
   for game in todays_games
     $('#scoreboard').append('<div class=\"game\"><div class=\"away_team\">' + game.away +
-        '</div><div class=\"home_team\">' + game.home + '</div><div class=\"time\">' + game.time + '</div></div>')
+    '<p class=\"ats\">' + game.ats + '</p>' +
+    '</div><div class=\"home_team\">' + game.home +
+    '<p class=\"hts\">' + game.hts + '</p>' + '</div><div class=\"time\">' + game.time + '</div></div>')
 
   return
