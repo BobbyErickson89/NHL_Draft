@@ -1,12 +1,104 @@
-#draft_button {
-  display: block;
-  margin-bottom: 3em;
+body {
+    font-family: sans-serif;
 }
 
-#standings, #draft_winner {
-  display: inline-block;
+th {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+#page_heading {
+    background: #037DD2;
+    color: white;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    /*margin-bottom: 1em;*/
+
+    box-shadow: 0 4px 1px -1px gray;
+}
+
+#button_container {
+    text-align: center;
+}
+
+#draft_button, #reset_button {
+    background: #037DD2;
+    color: white;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 8em;
+    border: none;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    box-shadow: 1px 3px 1px gray;
+    cursor: pointer;
+    outline: none;
+    /*border-radius: 5px;*/
+}
+
+#draft_button:active, #reset_button:active {
+    background: #3597db;
+}
+
+#draft_winner, #draft_selection {
+    vertical-align: top;
+}
+
+#container {
+    /*text-align: justify;*/
+    /*border: 1px dashed black;*/
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #draft_winner {
-  vertical-align: top;
+    text-align: center;
+}
+
+#standings, #draft_winner, #draft_selection {
+    width: 33%;
+    /*border: 1px dashed black;*/
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+#standings {
+    text-align: left;
+}
+
+#team_column, .team {
+    width: 80%;
+}
+
+#draft_selection {
+    float: right;
+}
+
+#scoreboard {
+    margin-bottom: 2em;
+}
+
+.game {
+    display: inline-block;
+    width: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 3em;
+}
+
+.time {
+    font-size: 0.5em;
+    /*text-align: center;*/
+}
+
+.hts, .ats {
+  display: inline-block;
+  float: right;
 }
