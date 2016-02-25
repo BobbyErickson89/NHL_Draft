@@ -77,17 +77,13 @@
         team_name_chosen = team_name_split.join('_');
         team_image_link = "/images/" + team_name_chosen + ".svg";
         $('#draft_winner').empty();
-        $('#draft_winner').append('<img id="team_img" src=' + team_image_link + '>');
+        $('#draft_winner').append('<img id="team_img" width="200" height="200" src=' + team_image_link + '>');
         $('#draft_selection').append('<tr><td class="team">' + lottery_teams[i] + '</td></tr>');
         lottery_teams.splice(i, 1);
         percentages.splice(-1, 1);
         adjusted_percentage = adjusted_percentage - percentages[i + 1];
         $('#standings').empty();
         standings_table();
-        $('#team_img').attr('src', team_image_link).load(function() {
-          $(this).css('width', '200px');
-          return $(this).css('height', '200px');
-        });
         break;
       }
       i++;

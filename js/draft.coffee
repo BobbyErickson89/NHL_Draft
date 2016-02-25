@@ -79,7 +79,7 @@ final_pick = ->
       team_image_link = "/images/" + team_name_chosen + ".svg"
 
       $('#draft_winner').empty()
-      $('#draft_winner').append('<img id="team_img" src=' + team_image_link + '>')
+      $('#draft_winner').append('<img id="team_img" width="200" height="200" src=' + team_image_link + '>')
 
       $('#draft_selection').append('<tr><td class="team">' + lottery_teams[i] + '</td></tr>')
 
@@ -94,11 +94,6 @@ final_pick = ->
 
       $('#standings').empty()
       standings_table()
-
-      #resizing images that are too big or too small to 260px x 260px
-      $('#team_img').attr('src', team_image_link).load ->
-        $(@).css('width', '200px')
-        $(@).css('height', '200px')
 
       break
     i++

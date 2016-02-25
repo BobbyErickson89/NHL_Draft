@@ -3,6 +3,8 @@ todays_time = moment().format('a')
 yesterday = moment().add -1, 'days'
 yesterday = yesterday.format('YYYY-MM-DD')
 
+todays_time = 'am'
+
 
 #like an ajax call, but this is just getting the script from this url
 if todays_time is 'pm'
