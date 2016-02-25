@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c22f9d2-1b97-4840-b048-ba36c1d17dac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.coffee" afterPath="$PROJECT_DIR$/js/draft.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.js" afterPath="$PROJECT_DIR$/js/draft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draft.js.map" afterPath="$PROJECT_DIR$/js/draft.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scoreboard.coffee" afterPath="$PROJECT_DIR$/js/scoreboard.coffee" />
     </list>
     <ignored path="NHL_Draft.iws" />
@@ -60,21 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.120192304">
+            <state vertical-scroll-proportion="-0.5681818">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scoreboard.coffee" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scoreboard.coffee" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/scoreboard.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.05952381">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -91,8 +88,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b2e25917-9b96-410c-9df6-4d319000d653/console.sql" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/scoreboard.coffee" />
         <option value="$PROJECT_DIR$/js/draft.coffee" />
+        <option value="$PROJECT_DIR$/js/scoreboard.coffee" />
       </list>
     </option>
   </component>
@@ -647,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scoreboard.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/draft.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.111111">
@@ -665,8 +654,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120192304">
+        <state vertical-scroll-proportion="-0.5681818">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scoreboard.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05952381">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
