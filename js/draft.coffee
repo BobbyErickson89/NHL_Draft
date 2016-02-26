@@ -92,7 +92,8 @@ final_pick = ->
 #      console.log lottery_teams
 #      console.log percentages[i + 1]
 
-      $('#standings').empty()
+      $('.team').empty()
+      $('.odds').empty()
       standings_table()
 
       break
@@ -120,7 +121,8 @@ $('#draft_button').click ->
 $('#reset_button').click ->
   $('#draft_selection').empty()
   $('#draft_winner').empty()
-  $('#standings').empty()
+  $('.team').empty()
+  $('.odds').empty()
   $('#draft_button').prop('disabled', false)
 
   draft_api()
