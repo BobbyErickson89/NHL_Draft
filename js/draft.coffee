@@ -109,6 +109,7 @@ $('#draft_button').click ->
   click_counter++
   if click_counter >= 3
     $('#draft_button').prop('disabled', true)
+    $('#draft_button').css('background-color', 'gray')
 
 
     i = 0
@@ -119,6 +120,8 @@ $('#draft_button').click ->
   return
 
 $('#reset_button').click ->
+  click_counter = 0
+  $('#draft_button').css('background-color', '#037DD2')
   $('#draft_selection').empty()
   $('#draft_winner').empty()
   $('.team').empty()
