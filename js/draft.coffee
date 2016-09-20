@@ -80,9 +80,7 @@ final_pick = ->
 
       $('#draft_winner').empty()
       $('#draft_winner').append('<img id="team_img" width="200" height="200" src=' + team_image_link + '>')
-
-      $('#draft_selection').append('<tr><td class="team">' + lottery_teams[i] + '</td></tr>')
-
+      $('#draft_selection tbody').append('<tr><td class="picked-team">' + lottery_teams[i] + '</td></tr>')
       # removes the selected winning team from the lottery_teams array
       lottery_teams.splice(i, 1)
       # removes the last element of the percentages array
@@ -114,7 +112,7 @@ $('#draft_button').click ->
 
     i = 0
     while i < lottery_teams.length
-      $('#draft_selection').append('<tr><td class="team">' + lottery_teams[i] +  '</td></tr>')
+      $('#draft_selection').append('<tr><td class="picked-team">' + lottery_teams[i] + '</td></tr>')
       i++
 
   return
@@ -122,7 +120,7 @@ $('#draft_button').click ->
 $('#reset_button').click ->
   click_counter = 0
   $('#draft_button').css('background-color', '#037DD2')
-  $('#draft_selection').empty()
+  $('.picked-team').empty()
   $('#draft_winner').empty()
   $('.team').empty()
   $('.odds').empty()
