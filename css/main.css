@@ -1,5 +1,4 @@
 body {
-<<<<<<< HEAD
   font-family: sans-serif;
   margin: 1em 0.5em;
 }
@@ -7,9 +6,6 @@ body {
 #draft_button {
   display: block;
   margin-bottom: 3em;
-=======
-    font-family: sans-serif;
->>>>>>> 6f1cec7adeaff3cd069bdf22d57b0a29cdeef4dc
 }
 
 th {
