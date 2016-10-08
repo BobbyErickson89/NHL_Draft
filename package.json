@@ -13,7 +13,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "node:watch": "nodemon app.js",
+    "coffee:watch": "coffee --compile --watch *.coffee js/*.coffee"
   },
   "repository": {
     "type": "git",
