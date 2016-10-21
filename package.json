@@ -13,9 +13,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
+    "coffee:watch": "coffee --compile --watch *.coffee js/*.coffee",
     "node:watch": "nodemon app.js",
-    "coffee:watch": "coffee --compile --watch *.coffee js/*.coffee"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
