@@ -14,6 +14,8 @@
 
   app = express();
 
+  app.listen(process.env.PORT || 3000);
+
   app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
   });
@@ -31,8 +33,6 @@
   app.use('/bower_components', express["static"](__dirname + '/bower_components'));
 
   app.use('/node_modules', express["static"](__dirname + '/node_modules'));
-
-  app.listen(process.env.port || 3000);
 
   console.log('Running at Port 3000');
 

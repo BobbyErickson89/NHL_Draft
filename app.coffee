@@ -6,6 +6,8 @@ cheerio = require 'cheerio'
 
 app = express()
 
+app.listen process.env.PORT || 3000
+
 app.get '/',(req,res)->
   res.sendFile(path.join(__dirname + '/index.html'))
   return
@@ -50,6 +52,5 @@ app.use '/node_modules', express.static(__dirname + '/node_modules')
 
 #app.use allowCrossDomain
 
-app.listen process.env.port || 3000
 
 console.log 'Running at Port 3000'
