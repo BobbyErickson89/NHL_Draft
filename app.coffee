@@ -50,6 +50,6 @@ app.use '/node_modules', express.static(__dirname + '/node_modules')
 
 #app.use allowCrossDomain
 
-app.listen 3000
+app.listen process.env.port || 3000
 
 console.log 'Running at Port 3000'
