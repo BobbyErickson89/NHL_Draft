@@ -4,11 +4,12 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "coffee-script": "*",
     "backbone": "^1.2.2",
     "browserify": "^13.0.0",
     "cheerio": "^0.20.0",
+    "coffee-script": "*",
     "express": "^4.13.4",
+    "jquery": "^3.1.1",
     "moment": "^2.11.2",
     "request": "^2.69.0"
   },
