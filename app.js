@@ -30,8 +30,6 @@
 
   app.use('/images', express["static"](__dirname + '/images'));
 
-  app.use('/bower_components', express["static"](__dirname + '/bower_components'));
-
   app.use('/node_modules', express["static"](__dirname + '/node_modules'));
 
   console.log('Running at Port 3000');
