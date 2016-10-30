@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "coffee-script": "1.10.0",
+    "coffee-script": "*",
     "backbone": "^1.2.2",
     "browserify": "^13.0.0",
     "cheerio": "^0.20.0",
