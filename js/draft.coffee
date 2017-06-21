@@ -1,6 +1,5 @@
 lottery_teams = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
 percentages = [0, 20, 13.5, 11.5, 9.5, 8.5, 7.5, 6.5, 6, 5, 3.5, 3, 2.5, 2, 1]
-#logos = ['ANA','ARI','BOS','BUF','CAR','CBJ','CGY','CHI','COL','DAL','DET','EDM','FLA','LAK','MIN','MTL','NJD','NSH','NYI','NYR','OTT','PHI','PIT','SJS','STL','TBL','TOR','VAN','WPG','WSH']
 logos = []
 
 click_counter = 0
@@ -19,13 +18,10 @@ draft_api = ->
         team_standing = $(this)
         team_name = team_standing.attr('Team')
         league_rank = team_standing.attr('LeagueRank')
-        tri_code = team_standing.attr('TriCode')
 
         if league_rank > 16
           arrayPlacement = league_rank - 1
           lottery_teams.splice(arrayPlacement, 1, team_name)
-#          logos.push(tri_code)
-#          console.log logos
 
           stats = ($(this).find('StatsGroup:first-child'))
 
@@ -63,9 +59,7 @@ standings_table = ->
   return
 
 final_pick = ->
-#  console.log lottery_teams
   percentage = Math.random()
-#  console.log adjusted_percentage
   pick = (percentage * (adjusted_percentage * 2)) / 2
   draft_odds = 0
   i = 0
@@ -87,8 +81,6 @@ final_pick = ->
       percentages.splice(-1, 1)
 
       adjusted_percentage = adjusted_percentage - percentages[i + 1]
-#      console.log lottery_teams
-#      console.log percentages[i + 1]
 
       $('.team').empty()
       $('.odds').empty()
